@@ -26,6 +26,18 @@ nav {
 }
 
 .links li {
-  margin-right: 1em;
+  margin-left: 1em;
   list-style: none;
+}
+
+.links a {
+  padding: 0.1em 0.3em;
+}
+
+#share a {
+  color: #dec129;
+}
+
+#share a:hover {
+  background-color: #efefef;
 }
