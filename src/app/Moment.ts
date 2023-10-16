@@ -1,6 +1,6 @@
 export interface Moment {
   id?: number;
-  titile: string;
+  title: string;
   description: string;
   image: string;
   created_at?: string;
