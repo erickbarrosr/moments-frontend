@@ -7,7 +7,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   styleUrls: ['./moment-form.component.css'],
 })
 export class MomentFormComponent implements OnInit {
-  @Input() shareButton = '';
+  @Input() btnText = '';
 
   momentForm!: FormGroup;
 
