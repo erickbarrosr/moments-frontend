@@ -58,6 +58,7 @@ input[type="submit"]:hover {
   background-color: transparent;
 }
 
+/* VALIDATIONS */
 .validation-error p {
   color: #dc3545;
   margin-top: 0.4em;
