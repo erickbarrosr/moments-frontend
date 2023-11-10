@@ -11,6 +11,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
 import { MomentFormComponent } from './components/moment-form/moment-form.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MomentFormComponent } from './components/moment-form/moment-form.compon
     AboutComponent,
     NewMomentComponent,
     MomentFormComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
