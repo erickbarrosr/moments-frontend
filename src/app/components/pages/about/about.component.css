@@ -8,9 +8,14 @@
 
 .about a {
   text-decoration: underline;
+  margin-bottom: 4em;
 }
 
-h2,
+h1,
 p {
   margin-bottom: 1em;
+}
+
+h1 span {
+  color: #dec129;
 }
