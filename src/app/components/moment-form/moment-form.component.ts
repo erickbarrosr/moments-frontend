@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Moment } from 'src/app/Moment';
 
 @Component({
   selector: 'app-moment-form',
@@ -8,7 +9,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class MomentFormComponent implements OnInit {
   @Input() shareButton!: string;
-
+  @Output() onSubmit = new EventEmitter<Moment>();
   momentForm!: FormGroup;
 
   ngOnInit(): void {
