@@ -1,2 +1,2 @@
 <h1>Compartilhe o seu <span>momento</span>!</h1>
-<app-moment-form [shareButton]="shareButton"></app-moment-form>
+<app-moment-form [shareButton]="shareButton" (onSubmit)="createHandler($event)"></app-moment-form>
