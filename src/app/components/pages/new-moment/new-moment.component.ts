@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NewMomentComponent {
   shareButton = 'Compartilhar';
+
+  createHandler(event: any) {}
 }
