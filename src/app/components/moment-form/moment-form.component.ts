@@ -8,8 +8,9 @@ import { Moment } from 'src/app/Moment';
   styleUrls: ['./moment-form.component.css'],
 })
 export class MomentFormComponent implements OnInit {
-  @Input() shareButton!: string;
   @Output() onSubmit = new EventEmitter<Moment>();
+  @Input() shareButton!: string;
+
   momentForm!: FormGroup;
 
   ngOnInit(): void {
@@ -41,5 +42,7 @@ export class MomentFormComponent implements OnInit {
     }
 
     console.log(this.momentForm.value);
+
+    this.onSubmit.emit(this.momentForm.value);
   }
 }
